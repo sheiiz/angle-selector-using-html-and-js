@@ -1,0 +1,94 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5edf7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#angleInput {
+    width: 70px;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    border: 2px solid #3d3d3f;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#angleInput:focus {
+    border-color: #0056b3;
+}
+
+#sliderContainer {
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+#angleSlider {
+    width: 100%;
+    cursor: pointer;
+}
+
+#radioContainer label {
+    margin-right: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#radioContainer input[type="radio"] {
+    margin-right: 5px;
+}
+
+#radioContainer label:hover {
+    color: #007BFF;
+}
+
+#angleSlider::-webkit-slider-thumb {
+    background-color: #007BFF;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#angleSlider::-webkit-slider-thumb:hover {
+    background-color: #0056b3;
+}
+
+#angleSlider::-moz-range-thumb {
+    background-color: #007BFF;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#angleSlider::-moz-range-thumb:hover {
+    background-color: #0056b3;
+}
